@@ -1,0 +1,228 @@
+HTML - Hyper Text Markup Language
+                 Hyper Text - text ke andr ek aur text
+                  Markup - markup ka mtlb kaun ka line kaha dikhana hai
+                  Language - It does not follow the rule of DS&A And in it we do not need to create logics so it is not a programming language.
+                   e programming langage nahi hai q ki isme data structure ka concept nahi use hota hai aur isme kaam karne ke liye logic nahi lagana padta hai.
+
+html ka use web page banane ke liye hota hai.
+Web Page:- Web page humara html main likha gaya ek document hota hai.
+sirf html ka use karke hum static web site bana sakte hai.
+
+-> What is websites?
+Websites are collection of web pages.
+
+website web page ka collection hota hai. Mtlb jb bahut sare web pages ko ek dusre se link kr diya jata hai
+to wo ek website ka rup le lete hai.
+
+->HTML tags ke help se kaam karta hai.
+
+->History - Tim Berners Lee, 1991
+                        HTML 5 is latest version
+
+->Features of HTML-
+     1 - easy and simple
+     2 - effective presentation
+     3  - Markup language
+      4 - can add link of other web pages
+      5 - plateform independent
+      6 - Can add graphics, music, video,images,pdf,text to make our web              pages more attractive
+      7 - case insensitive 
+
+->Software requirment:-
+For PC - VS Code, Sublime Text, Notepad, Notepad++ + any one browser
+For mobile - Anwriter + any one browser
+
+--------------------------------------------------------------------------------------------------
+Day - #2
+
+Block Of HTML:-
+
+HTML ya kisi bhi language ko blocks ke help se likha jata hai.Har ek language ka apna ek 
+specific block hota hai.
+
+Html ka block following se milkar bana hota hai:-
+1 - Tags
+2 - Attribute(optional) - Gun(property)
+3 - Elements
+
+1 - Tags :- Html main content/element ko likhne ke liye tags ki need hoti hai. Tags ke meaning pahle se define 
+            hoti hai. Hum tags ki meaning ko change nahi kar sakte hai.Tags case sensitive nahi hote hai.
+			Jitne bhi content/element hote hai unko hm tags ke beech main likhte hai.
+			
+			tags ke type:-
+			1 - container tags:- Container means jo apne andar kuch contain kare mtlb apne andar kuch rakhe.
+			                    example - <p>....</p>, <head>......</head>
+			2 - self closing tags:- Wo tags jo khud se close hote hai ya jinke closing tags nahi hote hai.
+			                        Ye koi bhi element containnahi karte hai.
+			                    example:- <br/>, <hr/>
+				
+2 - Attribute(optional):- Attribute ka use extra information dene ke liye kiya jata hai. Ye information browser
+                          ko diya jata hai. Jiske according browser work karta hai.Attribute element pr apply 
+						  hota hai.
+					
+3 - Elements :- elments individual content hote hai. mtlb element wo koi bhi text ho sakta hai jisko hm browser 
+                pr dikhana chate hai.
+				
+Example:- <h1>Hum body hai</H1>
+          
+		  <h1>....</h1> ----Tag
+		  Hum body hai -----Element
+		  style="color: darkred; text-align: center;"----Attribute
+		  
+Synatx of html:-
+
+<opening tag style="Attribute_name:attribute_value;">Element<closing tag>
+
+
+-----------------------------------------------------------------------------------------------
+Day - #3
+Attribute optional hai . iska example
+	  
+Tags :- Tags keyword ki tarah hote hai. Tags ka use html document main elements ko show 
+        karane ke liye hota hai.
+		<opening tag>..............................................</closing tag>
+		
+		DOCTYPE :- Document type declaration . Ye hamara html document ka pahla line hota hai.
+		SGML Family - GML, SGML,XML,XHTML,HTML
+		
+		<!--any content--> :- Hum iska use comment dene ke liye karte hai.
+		
+		<a href="link"> :- iska use bauht se pages ko ek dusre se link karne ke liye hota hai.
+		
+		<audio> :- iska use web page main audio lagane ke liye hota hai.
+		
+		<b></b> :- iska use text ko bold karne ke liye hota hai.
+		
+		<body></body> :- humare web page ka sara content body section ke andr hi hota hai.
+		
+		<br/> :- ye ek self closing tag hai. iska use line break karne ke liye hota hai.
+ 
+        <button> :-  ye humara clickable button.  
+		
+		<div> :- ye baht important tag hai. pura web site div tag pr banta hai.
+		
+		<fieldset> :- ye form etc ko lable/naam dene ke kaam aata hai.
+		
+		<footer> :- ye web page ke footer ko define karta hai.
+		
+-----------------------------------------------------------------------------------------------
+Day #4
+Anchor Tag:- Anchor tag ek page ko dusre page se link karta hai. Anchor Tag ke saath "href" attribute ka use 
+             karte hai. Anchor tag ko <a> se denote karte hai. ye ek container tag hai.
+			 
+			Synatx of anchor tag:- <a href="link of next page">Name of Page</a>
+			
+			Example:- <a href="https://www.google.com/">Google</a>
+			
+			Notes:- "/" ka use ek folder aage jane ke liye karte hai.
+			         "../" ka use ek folder phice aane ke liye karte hai.
+					 "../../" ka use do folder piche aane ke liye karte hai.
+					 
+-----------------------------------------------------------------------------------------------
+Day #5
+
+Audio tag:- Audio tag ka use hum apne web page main audio lagane ke liye karte hai. 
+            Audio Tag container tag hai. Audion tag ke saath controls attribute ka use karte hai.
+			jo hume audio ko control karne ka option provide karta hai.
+            Synatx :- <audio controls> <source src="" type=""> </audio>
+			
+			Example :- <audio controls>
+                            <source src="dhinchakpooja.mp3" type="audio/mpeg/ogg">
+                       </audio>					
+					   
+Bold Tag:- Bold tag ka use para ke important part ko bold karne ke liye kiya jata hai. Bold tag ek 
+           container tag hai.
+           Synatx:- <b>......</b>
+		   Example:- I'm <b>Aadarsh Singh</b>
+		  
+-----------------------------------------------------------------------------------------------
+Day #6
+
+Body tag:- Body tag humare web page ka sabse important tag hota hai.Humare web page pr jo kuch bhi dikhta hai
+           wo sb body tag ke andr likha hota hai. Ye ek container tag hai.
+		   Syntax :- <body>........................</body>
+		   
+br tag :- Iska use single line break ke liye karte hai.
+          Synatx:- <br/>
+		
+Button tag:- Ye ek dummy button jiska value/type hum apne according set kr sakte hai.
+             Synatx:- <button name="" type="">
+			 
+-----------------------------------------------------------------------------------------------
+Day #7
+
+Div Tag:- ye humare web page/HTML Document main ek section ya division bana deta hai. 
+          Ye ek container tag hai. Div ek block level element.
+          Synatx:- <div>...................................</div>
+		  
+
+
+-----------------------------------------------------------------------------------------------
+Day #8
+
+Del tag/delete tag :- Del tag ka use apne html document se kisi text ko delete karne ya remove karne ke liye
+                      kiya jaha hai. Ye ek container tag hai.
+					  syntax :- <del>......</del>
+					  
+fieldset tag:- fieldset ka use form elements ko ek group main karne ke liye use karte hai. 
+               Ye ek container tag hai.
+			   Syntax:- <fieldset>............</fieldset>
+			   
+			   Legend:- legend always fieldset ke saath use hota hain as a child. Ye fieldset se bane group ka
+			            caption define karta hai. ye ek container tag hai.
+			            Syntax:- <legend>.......</legend>
+
+Footer Tag:- footer tag ka use hum web page main footer section define karne ke liye karte hai. Footer section 
+             web page main sabse bottom main hota hai. Ye ek container tag hai.
+             syntax:-<footer>...........</footer>		 
+
+-----------------------------------------------------------------------------------------------
+Day #9
+
+form tag :- form tag ek section hota hai jo contain karta hai :- text fields, passwords, checkboxes, radio buttons
+            submit button etc....
+			Form ka use user se data le ke data ko database main store karane ke liye karte hai.
+			Form ek container tag hai.
+			Synatx:- <form>..........</form>
+			Attribute :- action :- form submit hone ke baad kya hona hai.
+			             method :- form ko database main kis method se pahuchana hai. 
+						           Get
+								   Post
+								 
+heading tag :- heading tag ka use HTML document main heading dene ke liye karte hai. HTML main six different
+               heading tag hote hain. Ye ek container tag hai. H1 largest heading tag hai aur h6 smallest heading
+               tag hai.			   
+			   <h1>......</h1>
+			   <h2>......</h2>
+			   <h3>......</h3>
+			   <h4>......</h4>
+			   <h5>......</h5>
+			   <h6>......</h6>
+			 
+head tag:- ye humare html document ka head section ko define karta hai. Ye 
+           metadata(data ke bare main data) ke liye container tag hai. isme likha gaya content hamare web page/
+		   html document pr show nahi hota hai.
+		   <title>.......<title>
+		   <style>
+		   <meta>
+		   <link>
+		   <script>.........</script>
+		   <base>
+		   <noscript>
+		   
+-----------------------------------------------------------------------------------------------
+Day #10
+
+header tag - header tag ka use hum log html document/web page main header section banane ke liye karte hai.
+             Ye ek container tag hai.
+			 Syntax:- <header>.......................................</header>
+			 
+hr tag - hr tag ka use horizontal line draw karne ke liye use karte hai. ye self closing tag hai.
+         Syntax :- <hr/>
+		 
+i tag :- i tag ka use html document ke word/font ko italic banane ke liye use karte hai.
+         Ye ek container tag hai.
+		 Syntax:- <i>............</i>
+
+iframe tag:- iska use nested web page dikhane/banane ke liye karte  hai.ye ek container tag hai.
+             Syntax :- <iframe src=""></iframe>
